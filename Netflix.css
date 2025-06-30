@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+   border: border-box;
+    padding: 0;
+}
+body{
+    height: 2500px;
+    background-color: black;
+    
+}
+/*Backgrond and text*/
+.Hero{ 
+    width: 99.2vw;
+    height: 110vh;
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("https://xboxwire.thesourcemediaassets.com/sites/2/2023/05/Background-size1920x1080-4e1694a6-75aa-4c36-9d4d-7fb6a3102005-bc5318781aad7f5c8520.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+   position: relative;
+    display: flex;
+    justify-content: center;
+    z-index: 0;
+}
+
+.logo-Sign{
+    height: 9vh ;
+    width: 90vw;
+    background-color: transparent;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+}
+.logo{
+    width: 75%;
+}
+.logo img{ 
+   height: 4rem;
+    width: 13rem;
+}
+.select-sign{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.select-sign select{
+    text-align: center;
+    width: 9rem;
+    height: 2.1rem;
+    border: 2px lightcyan white;
+    background-color: rgba(0, 0, 0, 0.632);
+    font-size: 1.2rem;
+    color: white;
+    border-radius: 0.4rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.select-sign div{
+    margin-left: 1.7rem;
+}
+#Sign{
+    border: 2px solid transparent;
+    width: 4.8rem;
+    height: 1.7rem;
+    font-size: 1.2rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #e50914;
+    border-radius:0.3rem;
+    text-align: center;
+}
+#Sign a{
+    color: white;
+    
+}
+#Sign:hover{
+    opacity: 0.8;
+}
+.Sign-up{
+    background-color: transparent;
+   height: 30rem;
+   width: 60rem;
+   z-index: 1;
+   margin-left :16rem ;
+   position: relative;
+   bottom: 39rem;   
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.Sign-up h1{
+    font-size: 50px;
+    
+}
+.Sign-up input{
+    background-color: transparent;
+    text-align: center;
+    font-size: 0.9rem;
+    color: white;
+    height: 2.9rem;
+    width: 23rem;
+    border: 1px solid gainsboro;
+    border-radius: 0.3rem;
+}
+.Sign-up button{
+     height: 2.9rem;
+     margin-left: 0.8rem;
+     width: 11rem;
+     background-color: #e50914;
+     font-size: large;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     font-weight: 900;
+     border: 1px solid #e50914;
+     border-radius: 0.3rem;
+
+}
+#button{
+    height: 05rem;
+    display: flex;
+    align-items: center;
+}
+.Sign-up button:hover{
+    opacity: 0.8;
+}
+.curve{
+    height: 4rem;
+    width: 100%;
+    position: relative;
+    margin-top: -30rem;
+    background-image: url("Screenshot\ 2025-06-29\ 111613.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.poster{
+    width: 100%;
+    height: 23rem;
+    margin-top: 1rem;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.poster1{
+    width: 15%;
+    height: 80%;
+    background-color: black;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 0.5rem;
+}
+.poster1:hover{
+    scale: 1.1;
+    opacity: 0.9;
+}
+.contact-links{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    height: 30rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: small;
+    font-weight: 700;
+}
+.contact-links img{
+    width: 30%;
+    height: 25%;
+    
+}
